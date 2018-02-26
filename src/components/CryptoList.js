@@ -3,9 +3,6 @@ import { View, ScrollView } from 'react-native';
 import axios from 'axios';
 import CryptoDetail from './CryptoDetail';
 
-// Klasskomponent som sköter request för att hämta en lista av valutor och properties på dem.
-// Är en klasskomponent eftersom den sköter states och inte bara visar någon statisk info.
-
  class CryptoList extends Component {
     
     state = { cryptos: [] };
