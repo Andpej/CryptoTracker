@@ -1,8 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
 
-// Komponent som representerar en mindre sektion av CryptoCard. 
-
 const CryptoCardSection = (props) => {
     return (
         <View style={styles.containerStyle}>
