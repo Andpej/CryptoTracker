@@ -4,15 +4,12 @@ import CryptoCard from './CryptoCard';
 import CryptoCardSection from './CryptoCardSection';
 import { logos } from '../utils/CryptoLogos';
 
-// Komponent som representerar varje valuta. Returnerar det i form av ett CryptoCard
-// som är indelat i två sektioner (CryptoCardSection)
-
 const CryptoDetail = ( {crypto} ) => {
 const { nameStyle, symbolStyle, imageStyle, changeMinusStyle, changePlusStyle, priceStyle, upperSectionStyle } = styles;
 const { name, symbol, price_usd, percent_change_1h, percent_change_24h, percent_change_7d } = crypto; 
 
 return (
-    // En sektion med namn förkortning och bild
+
 <CryptoCard>
     <CryptoCardSection>  
     <View style={upperSectionStyle}>
@@ -33,7 +30,6 @@ return (
     </CryptoCard>
 );
 };
-    // en sektion med värdeskillnad senaste timmen, dygnet och veckan.
 
 const styles = {
     nameStyle: {
