@@ -4,7 +4,10 @@ import CryptoCard from './CryptoCard';
 import CryptoCardSection from './CryptoCardSection';
 import { logos } from '../utils/CryptoLogos';
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> e53452bc6d907a73959009740b37f3445b63b8fe
 const CryptoDetail = ( {crypto} ) => {
 const { nameStyle, symbolStyle, imageStyle, changeMinusStyle, changePlusStyle, priceStyle, upperSectionStyle } = styles;
 const { name, symbol, price_usd, percent_change_1h, percent_change_24h, percent_change_7d } = crypto; 

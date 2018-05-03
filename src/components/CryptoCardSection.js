@@ -1,5 +1,9 @@
 import React from 'react';
+<<<<<<< HEAD
 import { View } from 'react-native'; 
+=======
+import { View } from 'react-native';
+>>>>>>> e53452bc6d907a73959009740b37f3445b63b8fe
 
 const CryptoCardSection = (props) => {
     return (
