@@ -1,7 +1,5 @@
 import React from 'react';
-import { View } from 'react-native';
-
-// Komponent som representerar en mindre sektion av CryptoCard. 
+import { View } from 'react-native'; 
 
 const CryptoCardSection = (props) => {
     return (

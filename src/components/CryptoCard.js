@@ -1,8 +1,6 @@
 import React from 'react';
 import { View, Image } from 'react-native';
 
-// Komponent som placerar varje valuta i ett eget card.
-
 const CryptoCard = (props) => {
     return (
     <View style={styles.containerStyle}> 
